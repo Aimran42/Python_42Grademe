@@ -295,6 +295,15 @@ class GradeMe:
             if not _confirm():
                 print("Session saved. You can continue later with the remaining time.")  # noqa: E501
                 return 0
+            print("\033[97m██   ██    ████████\033[0m")
+            print("\033[97m██   ██          ██\033[0m")
+            print("\033[97m██   ██          ██\033[0m")
+            print("\033[97m██   ██          ██\033[0m")
+            print("\033[97m███████    ████████\033[0m")
+            print("\033[97m     ██    ██\033[0m")
+            print("\033[97m     ██    ██\033[0m")
+            print("\033[97m     ██    ██\033[0m")
+            print("\033[97m     ██    ████████\033[0m")
             while True:
                 command = input("\033[92mexamshell>\033[0m ").strip().lower()
                 if command == "finish":
